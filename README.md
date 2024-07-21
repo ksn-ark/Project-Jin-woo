@@ -6,15 +6,15 @@ okay so, sl aesthetic theme going on, probably gonna cut back on it to maintain 
 
 ## Daily Goals
 
-<table style="border: solid;">
+<table >
   <thead>
     <tr>
-      <th rowspan="2" style="border: solid;">Default Excercises</th>
-      <th rowspan="2" style="border: solid;">Target Area</th>
+      <th rowspan="2" >Default Excercises</th>
+      <th rowspan="2" >Target Area</th>
       <th colspan="6" style="text-align: center;">Variations by rank</th>
-      <th rowspan="2" style="border: solid;">Relevant stat</th>
+      <th rowspan="2" >Relevant stat</th>
     </tr>
-    <tr style="border: solid;">
+    <tr >
     <th>E</th>
     <th>D</th>
     <th>C</th>
@@ -46,7 +46,7 @@ okay so, sl aesthetic theme going on, probably gonna cut back on it to maintain 
       <td>Full</td>
       <td>Strength</td>
     </tr>
-    <tr style="border: solid;">
+    <tr >
       <td>Squats (x10)</td>
       <td>Lower-Body</td>
       <td>Assisted</td>
@@ -68,7 +68,7 @@ okay so, sl aesthetic theme going on, probably gonna cut back on it to maintain 
       <td>60s</td>
       <td>Stamina</td>
     </tr>
-    <tr style="border: solid;">
+    <tr >
       <td>Jog</td>
       <td>Lower-Body</td>
       <td>100m</td>
@@ -93,7 +93,7 @@ okay so, sl aesthetic theme going on, probably gonna cut back on it to maintain 
       <td>60 reps</td>
       <td>Flexibility</td>
     </tr>
-    <tr style="border: solid;">
+    <tr >
       <td>
         Standing <br />
         Quadricep Stretch
