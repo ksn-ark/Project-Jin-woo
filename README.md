@@ -24,7 +24,7 @@ okay so, sl aesthetic theme going on, probably gonna cut back on it to maintain 
   <thead></thead>
   <tbody>
     <tr >
-      <td>Push-Ups</td>
+      <td>Push-Ups (x10)</td>
       <td rowspan="2">Upper-Body</td>
       <td>Wall</td>
       <td>Wall</td>
@@ -35,7 +35,7 @@ okay so, sl aesthetic theme going on, probably gonna cut back on it to maintain 
       <td>Strength</td>
     </tr>
     <tr>
-      <td>Pull-Ups</td>
+      <td>Pull-Ups (x10)</td>
       <td>Navel</td>
       <td>Navel</td>
       <td>Torso</td>
@@ -45,7 +45,7 @@ okay so, sl aesthetic theme going on, probably gonna cut back on it to maintain 
       <td>Strength</td>
     </tr>
     <tr style="border: solid;">
-      <td>Squats</td>
+      <td>Squats (x10)</td>
       <td>Lower-Body</td>
       <td>Assisted</td>
       <td>Assisted</td>
