@@ -4,6 +4,8 @@ name is a tad cringe but the goal is noble enough to negate it imo.
 
 okay so, sl aesthetic theme going on, probably gonna cut back on it to maintain minimum inspo bcs copyright
 
+## Daily Goals
+
 <table style="border: solid;">
   <thead>
     <tr>
@@ -108,7 +110,53 @@ okay so, sl aesthetic theme going on, probably gonna cut back on it to maintain 
   </tbody>
 </table>
 
-daily goal = push ups (wall, incline, knee, full)/planks/incline push ups, squats
+## Weekly Goals
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Default Excercises</th>
+      <th colspan="6">Variations by rank</th>
+    </tr>
+    <tr>
+      <th>E</th>
+      <th>D</th>
+      <th>C</th>
+      <th>B</th>
+      <th>A</th>
+      <th>S</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Daily goals</td>
+      <td>1 day</td>
+      <td>2 days</td>
+      <td>3 days</td>
+      <td>4 days</td>
+      <td>5 days</td>
+      <td>6 days</td>
+    </tr>
+    <tr>
+      <td>Steps</td>
+      <td>500 steps</td>
+      <td>1000 steps</td>
+      <td>1500 steps</td>
+      <td>2000 steps</td>
+      <td>2500 steps</td>
+      <td>3000 steps</td>
+    </tr>
+    <tr>
+      <td>Sleep hours</td>
+      <td>28 hours</td>
+      <td>32 hours</td>
+      <td>36 hours</td>
+      <td>40 hours</td>
+      <td>45 hours</td>
+      <td>49 hours</td>
+    </tr>
+  </tbody>
+</table>
 weekly goal = steps taken, calories burnt, distance ran, daily goals met
 
 daily stat rewards = +1 relevant stat point for each sub-goal (+1 stat point for number of tiers above E)
