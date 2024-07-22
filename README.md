@@ -1,8 +1,71 @@
-# Project-Jin-woo
+# Project S Levelling
 
 name is a tad cringe but the goal is noble enough to negate it imo.
+naturally, sl & opm inspired.
 
-okay so, sl aesthetic theme going on, probably gonna cut back on it to maintain minimum inspo bcs copyright
+# Product
+
+- mobile app, watch app and finally web app, all three should sync and integrate as seamlessly as possible
+
+- watch app functionalities should have redundant substitutes on both mobile and web app, either through manual routines or otherwise
+
+# Features
+
+## Media Controls Wrapper
+
+- media controls wrapper for the watch app (which WILL have a loop toggle adjust button, same on the notification bar for the mobile app), mainly support for spotify with some general support for mp3 players.
+
+## Jog Route Mapping
+
+- jog route mapping, gonna use google maps for this one, like distance caluclations, elevation calculations, time, saved routes, edit routes, share routes, whole shebang
+
+## Articles Section
+
+- general health tips, a little articles section from reliable sources, should be good
+
+## Custom C-GPT
+
+- have a little ai mentor that provides encouragement, but generally avoids any specific instructions or information so as to avoid misinformation/ai hallucinations
+  gonna make/use a custom gpt for this one
+
+## Game System
+
+### Glossary
+
+#### Levels
+
+- Level - indicates total experience/time invested. Cannot decrease
+- Exp Points - Gained through doing, causes Level to increment at fixed thresholds.
+
+#### Stats
+
+- Base Stats - Strength, Endurance & Flexibility. Abstract representation of physical fitness. Can decrease.
+- Fixed-stat points - Only allocatable to the respective Base Stat, i.e Strength etc.
+- Free-stat points - Freely allocatable to a Base Stat of the player's choice.
+
+#### Rank
+
+- An abstract representation of physical wellness & fitness. Incremented through consistency and effort.
+
+#### Goals
+
+- Daily Goal - A fixed total goal of an exercise to be cleared within the day.
+- Weekly Goal - A fixed total goal of activities to be cleared within the week.
+
+#### Rewards
+
+- Daily Reward - Fixed reward earnt by clearing a set amount of Daily Goal's within the day.
+- Weekly Reward - Fixed reward earnt by clearing a set amount of Weekly Goal's within the week.
+
+#### Levelling system
+
+- Initial Level = 0
+- Exp required to be level x = 0.9\*x²
+- User given standard progression would hit level 256 after a week in S-Rank
+
+#### Stat system
+
+- 1 Stat point is lost from each base stat every week from the second consecutive week of inactivity.
 
 ## Daily Goals
 
@@ -116,7 +179,7 @@ okay so, sl aesthetic theme going on, probably gonna cut back on it to maintain 
   <thead>
     <tr>
       <th rowspan="2">Default Excercises</th>
-      <th colspan="6">Variations by rank</th>
+      <th colspan="6" style="text-align: center;">Variations by rank</th>
     </tr>
     <tr>
       <th>E</th>
@@ -157,42 +220,125 @@ okay so, sl aesthetic theme going on, probably gonna cut back on it to maintain 
     </tr>
   </tbody>
 </table>
-weekly goal = steps taken, calories burnt, distance ran, daily goals met
 
-daily stat rewards = +1 relevant stat point for each sub-goal (+1 stat point for number of tiers above E)
-daily exp rewards = +100exp (+100 for number of tiers above E)
-weekly stat rewards = +1 relevant stat point for each sub-goal + 1 x (daily goals met) stat point(s) + 1 x (weeks streak) stat point(s)
-weekly exp rewards = +1000exp (+1000 for number of tiers above E)
+## Rewards
 
-E = 1 daily goals required to meet weekly goal
-^ rank up after two consecutive weeks, 5 reps min
-D = 2 daily goals required, 10 reps min
-^ rank up after two consecutive weeks
-C = 3 daily goals required, 15 reps min
-^ rank up after three consecutive weeks
-B = 4 daily goals required, 20 reps min
-^ rank up after four consecutive weeks
-A = 5 daily goals required, 25 reps min
-^ rank up after five consecutive weeks
-S = 6 daily goals required, 30 reps min
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2" colspan="2">Reward types</th>
+      <th colspan="6" style="text-align: center;">Variations by rank</th>
+    </tr>
+    <tr>
+      <th>E</th>
+      <th>D</th>
+      <th>C</th>
+      <th>B</th>
+      <th>A</th>
+      <th>S</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3">Daily rewards</td>
+      <td>fixed-stat points</td>
+      <td>+1</td>
+      <td>+2</td>
+      <td>+3</td>
+      <td>+4</td>
+      <td>+5</td>
+      <td>+6</td>
+    </tr>
+    <tr>
+      <td>exp points</td>
+      <td>+100</td>
+      <td>+200</td>
+      <td>+300</td>
+      <td>+400</td>
+      <td>+500</td>
+      <td>+600</td>
+    </tr>
+    <tr>
+      <td>bonus points</td>
+      <td colspan="6" style="text-align: center;">1 daily goal completed for each stat = +2 free-stat points</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Weekly rewards</td>
+      <td>free-stat points</td>
+      <td>+3</td>
+      <td>+6</td>
+      <td>+9</td>
+      <td>+12</td>
+      <td>+15</td>
+      <td>+18</td>
+    </tr>
+    <tr>
+      <td>exp points</td>
+      <td>+1000</td>
+      <td>+2000</td>
+      <td>+3000</td>
+      <td>+4000</td>
+      <td>+5000</td>
+      <td>+6000</td>
+    </tr>
+    <tr>
+      <td>bonus stat points</td>
+      <td colspan="6" style="text-align: center;">1 x weekly streak + 1 x daily count</td>
+    </tr>
+    <tr>
+      <td colspan="1">bonus multiplier</td>
+      <td colspan="7" style="text-align: center;">2x to a reward set if triple relevant requirements completed</td>
+    </tr>
+  </tbody>
+</table>
 
-stat point drops are doubled if you hit double the min reps for the daily goals
-except in S rank it is only doubled if you hit 100 reps
+## Ranking
 
-total exp required for a level = 0.9\*(level)^2
-
-this way a user hits level 256 after a week in S tier after starting from E with nominal route in mind
-
-some kind of negative feedback for losing streaks at around C
-
-media controls wrapper for the watch app (which WILL have a loop toggle adjust button, same on the notification bar for the mobile app), mainly support for spotify with some general support for mp3 players.
-
-jog route mapping, gonna use google maps for this one, like distance caluclations, elevation calculations, time, saved routes, edit routes, share routes, whole shebang
-
-general health tips, a little articles section from reliable sources, should be good
-
-mobile app, watch app and finally web app, all three should sync and integrate as seamlessly as possible
-watch app functionalities should have redundant substitutes on both mobile and web app, either through manual routines or otherwise
-
-have a little ai mentor that provides encouragement, but generally avoids any specific instructions or information so as to avoid misinformation/ai hallucinations
-gonna make/use a custom gpt for this one
+<table>
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Promotion Requirements</th>
+      <th>Demotion Requirements</th>
+      <th>Dailies Required Per Week</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>E</th>
+      <td>null</td>
+      <td>12 month missed streak</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>D</th>
+      <td>2 weeks active streak</td>
+      <td>6 month missed streak</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>C</th>
+      <td>2 weeks active streak</td>
+      <td>4 month missed streak</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>B</th>
+      <td>3 weeks active streak</td>
+      <td>2 month missed streak</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>A</th>
+      <td>4 weeks active streak</td>
+      <td>1 month missed streak</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>S</th>
+      <td>5 weeks active streak</td>
+      <td>null</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
