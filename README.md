@@ -3,7 +3,7 @@
 name is a tad cringe but the goal is noble enough to negate it imo.
 naturally, sl & opm inspired.
 
-# Product
+# Implementations
 
 - mobile app, watch app and finally web app, all three should sync and integrate as seamlessly as possible
 
@@ -25,8 +25,8 @@ naturally, sl & opm inspired.
 
 ## Custom C-GPT
 
-- have a little ai mentor that provides encouragement, but generally avoids any specific instructions or information so as to avoid misinformation/ai hallucinations
-  gonna make/use a custom gpt for this one
+- have a little ai mentor that provides encouragement, but generally avoids any specific instructions or information so as to avoid misinformation/ai hallucinations.
+- gonna make/use a custom gpt for this one
 
 ## Game System
 
